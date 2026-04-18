@@ -7,7 +7,7 @@ This project analyzes customer churn behavior in a telecommunications dataset to
 customer-churn-analysis/
 ├── notebooks/
 ├── images/
-├── reports/
+├── report/
 ├── README.md
 ├── requirements.txt
 
@@ -93,7 +93,7 @@ Advanced model tuning
 
 📄 Full Report
 For a detailed analysis, see the full report:
-👉 reports/churn_analysis_report.pdf
+👉 report/churn_analysis_report.pdf
 
 🚀 Tech Stack
 - Python
