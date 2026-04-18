@@ -29,23 +29,35 @@ Largest proportion of churned customers
 👨‍👩‍👧 Customers without dependents/partners churn more
 
 ⚙️ Methodology
-Data cleaning and preprocessing
-Exploratory Data Analysis (EDA)
-Key Findings
-Model training and evaluation
-Business Recommendation
-Conclusion
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Key Findings
+- Model training and evaluation
+- Business Recommendation
+- Conclusion
+
+🧠 Feature Engineering & Selection
+- Converted categorical variables using one-hot encoding
+- Identified multicollinearity:
+- Strong correlation between tenure and total_charges (0.85)
+- Dropped total_charges to reduce redundancy and overfitting      
 
 🤖 Models Used
-Random Forest (primary model)
-Logistic Regression
-XGBoost
+- Random Forest (primary model)
+- Logistic Regression
+- XGBoost
+
+Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1 Score
 
 📊 Model Performance (Random Forest)
-Accuracy: 0.79
-Precision: 0.64
-Recall: 0.49
-F1 Score: 0.56
+- Accuracy: 0.79
+- Precision: 0.64
+- Recall: 0.49
+- F1 Score: 0.56
 
 🔍 Key Evaluation Insight
 The model demonstrates moderate precision but relatively low recall, indicating that while churn predictions are reasonably accurate, a significant number of churned customers are not identified.
@@ -60,10 +72,10 @@ The model demonstrates moderate precision but relatively low recall, indicating 
 
 🧠 Feature Importance
 Top predictors of churn include:
-Tenure
-Monthly Charges
-Contract Type
-Internet Service (Fibre Optic)
+- Tenure
+- Monthly Charges
+- Contract Type
+- Internet Service (Fibre Optic)
 
 💼 Business Recommendations
 🎯 Target high-risk groups (senior citizens) with tailored retention strategies
@@ -84,8 +96,9 @@ For a detailed analysis, see the full report:
 👉 reports/churn_analysis_report.pdf
 
 🚀 Tech Stack
-Python
-Pandas, NumPy
-Matplotlib
-Scikit-learn
-XGBoost
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- XGBoost
